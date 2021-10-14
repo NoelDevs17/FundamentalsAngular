@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContadorComponer } from './contador.component';
+import { ContadorComponer } from './contador/contador.component';
+import { HeroeComponent } from './heroes/heroe/heroe.comonent';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContadorComponer
+    ContadorComponer,
+    HeroeComponent
   ],
   imports: [
     BrowserModule,

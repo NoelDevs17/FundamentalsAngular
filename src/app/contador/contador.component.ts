@@ -7,8 +7,7 @@ import { Component } from '@angular/core';
 
 
     <button (click)="calcular(base)">+5</button>
-    
-    
+
     <span>{{ numero }}</span>
     
     <button (click)="calcular(-base)">-5</button>`
